@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background: #ffcc00;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 5px;
+    text-align: justify;  /* Justifica o texto */
+}
+
+h2 {
+    text-align: center;  /* Centraliza os títulos */
+    background-color: #ffcc00;
+    margin: 05px;
+}
+
+.rede{
+    height: 50px;
+    width: 50px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form button {
+    background: #ffcc00;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.eventos-container {
+    display: flex;  /* Torna o contêiner flexível */
+
+}
+
+.evento {
+    display: flex;  /* Torna a div do evento flexível */
+    flex-direction: column;  /* Coloca a imagem e o texto em coluna */
+    align-items: center;  /* Centraliza os itens horizontalmente */
+    margin: 150px;  /* Espaçamento entre os eventos */
+    max-width: 30%;  /* Ajusta a largura do contêiner de cada evento */
+    border: 25px solid orange;
+}
+
+
+.redesocial{
+    align-items: center;
+}
+
+#shows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid orange;
+
+}
+.poa{
+    width: 470px;
+    height: 640px;
+}
